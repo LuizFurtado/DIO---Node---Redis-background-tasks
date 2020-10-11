@@ -12,7 +12,7 @@ Em seguida, digite `npm install` ou `yarn install`. Dessa forma, todas as depend
 
 * Ter instalado Node.js. O lab utiliza a versão 10 do Node, portanto deve ser usada essa versão ou superior
 
-* Ter instalado o Redis. Para uso durante o lab, será usado o Redis com Docker (recomendado). Você pode instalar uma imagem do Redis usando o seguinte comando em seu terminal (deve possui o Docker instalado):
+* Ter acesso à uma instância do Redis. Para uso durante o lab, será usado o Redis com Docker (recomendado). Você pode instalar uma imagem do Redis usando o seguinte comando em seu terminal (deve possui o Docker instalado):
   `docker run --name redis -p 6379:6379 -d -t redis:alpine`
 
 Para subir sua instância local do redis, você pode executar o comando `docker start redis`. Lembrando que `redis` é o nome da imagem criada anteriormente. Para verificar o status das imagens em execução, execute o comando `docker ps` para as imagens em execução ou `docker ps -a` para listar todas as imagens, inclusive as paradas.
